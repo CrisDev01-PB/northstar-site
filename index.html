@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Northstar</title>
+<style>
+  :root { --bg: #fbfbfc; --ink: #1d1f24; --ink-2: #5b5f69; --hair: #e3e5ea; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #17181c; --ink: #eceef2; --ink-2: #a6aab3; --hair: #2c2e35; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 "Segoe UI", system-ui, -apple-system, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 20px 80px; }
+  h1 { font-size: 30px; letter-spacing: -.02em; margin: 0 0 8px; }
+  h2 { font-size: 19px; margin: 40px 0 8px; padding-top: 24px; border-top: 1px solid var(--hair); }
+  p, li { color: var(--ink-2); }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Northstar</h1>
+  <p>Northstar is a personal focus app for Windows. It's a private tool with a single user. It isn't sold, and nobody else uses it.</p>
+  <p>It keeps a plan of the day, runs focus sessions, and has a coach that runs on a local AI model on the same PC.</p>
+
+  <h2 id="privacy">Privacy</h2>
+  <p>Northstar asks Google for access to the Google Calendar events of the account that signs in. It uses that access for two things only:</p>
+  <ul>
+    <li>to add the blocks you plan in Northstar to your Google Calendar, and keep them up to date;</li>
+    <li>to show your other calendar events inside Northstar, so your day plan works around them.</li>
+  </ul>
+  <p>Your calendar data goes only between Google and the Northstar app on your own PC. Northstar has no server and no account system. Nothing is sold, shared, or used for ads.</p>
+  <p>Northstar only changes or deletes calendar events it created itself. It never edits your other events.</p>
+  <p>The Google sign-in is stored encrypted on your PC. You can remove Northstar's access at any time in your Google Account, under <a href="https://myaccount.google.com/permissions">Third-party apps with account access</a>.</p>
+  <p>Northstar's use of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+</main>
+</body>
+</html>
